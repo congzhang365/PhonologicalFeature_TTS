@@ -2,11 +2,11 @@ This is a repository for the preprint of
 
 ## Applying Phonological Features in Multilingual Text-To-Speech 
 
-by Cong Zhang^1^, Huinan Zeng, Huang Liu, Jiewen Zheng^3^*
+by Cong Zhang<sup>1</sup>, Huinan Zeng<sup>2</sup>, Huang Liu<sup>3</sup>, Jiewen Zheng<sup>3</sup>
 
-^1^ Centre for Language Studies, Radboud University, Nijmegen, Netherlands;
-^2 ^Faculty of Linguistics, Philology and Phonetics, University of Oxford, Oxford, UK;
-^3^ Shengrurenxin Ltd., Beijing, China
+<sup>1</sup> Centre for Language Studies, Radboud University, Nijmegen, Netherlands;
+<sup>2</sup>Faculty of Linguistics, Philology and Phonetics, University of Oxford, Oxford, UK;
+<sup>3</sup> Shengrurenxin Ltd., Beijing, China
 
 
 
