@@ -4,9 +4,10 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+
+<html lang="en">
 	<head>
-		<title>Editorial by HTML5 UP</title>
+		<title>FeatureTTS demo website by Dr Cong Zhang</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +23,7 @@
 
 							<!-- Header -->
 								<header id="header">
-<!--									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>-->
+									<a href="index.html" class="logo"><strong>Feature TTS</strong> </a>
 									<ul class="icons">
 										<li><a href="https://twitter.com/congprosody" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="https://github.com/congzhang365" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -33,11 +34,19 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h2>ICASSP</h2>
-											<h1>This is a very long paper title.</h1>
-											<p>Cong Zhang, Huinan Zeng, Huang Liu, Jiewen Zheng</p>
+											<h2>submitted</h2>
+											<h1>Applying Phonological Features in Multilingual Text-To-Speech</h1>
+											<p>Cong Zhang<sup>1</sup>, Huinan Zeng<sup>2</sup>, Huang Liu<sup>3</sup>, Jiewen Zheng<sup>3</sup></p>
 										</header>
-										<p>Paper Abstract Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+                                        <p><sup>1</sup> Centre for Language Studies, Radboud University, Nijmegen, Netherlands; <br>
+                                        <sup>2</sup> Faculty of Linguistics, Philology and Phonetics, University of Oxford, Oxford, UK; <br>
+                                        <sup>3</sup> Shengrurenxin Ltd., Beijing, China
+                                        </p>
+
+										<p>This paper investigates whether phonological features can be applied in text-to-speech systems to generate native and non-native speech. We present a mapping between APRAbet/pinyin→SAMPA/SAMPA-SC→phonological features and tested whether using this mapping, native, non-native, and code-switched speech could be successfully generated. We ran two experiments, one with a small dataset and one with a larger dataset. The results proved that phonological features can be a feasible input system, while it also required future work to be done to improve model performance. This study also shed light on human phonological acquisition with evidence from machine learning. </p>
+                                        
+                                        <p><b>Keywords</b>: phonological feature, text-to-speech, multilingual TTS, non-native speech, FUL model</p>
+                                        
 										<ul class="actions">
 											<li><a href="linktopaper" class="button big">Download Paper</a></li>
 										</ul>
@@ -89,122 +98,375 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Experiment 1: xxxx</h2>
+										<h2>Experiment 1: small data</h2>
 									</header>
+                                    <h3>English-Mandarin codeswitch</h3>
 									<div class="posts">
+                                        
 										<article>
 <!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
-											<h3>Traditional Method</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
+											<h3>0.5h</h3>
+											<p>e.g. 1: 你的Android为什么那么快，我的iphone好慢呀。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-cn1-mix-0010.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-en1-mix-0010.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 2: 明天的presentation你prepare一下吧，一定要弄得很amazing。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-cn1-mix-0009.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-en1-mix-0009.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
 										<article>
 <!--											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>-->
-											<h3>New Method</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
+											<h3>2h</h3>
+											<p>e.g. 1: 你的Android为什么那么快，我的iphone好慢呀。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-cn1-mix-0010.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-en1-mix-0010.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 2: 明天的presentation你prepare一下吧，一定要弄得很amazing。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-cn1-mix-0009.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-en1-mix-0009.wav" type="audio/x-wav" /></audio>
 											<ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
+                                        
 										<article>
-<!--											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>-->
-<!--											<h3>Tempus ullamcorper</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>-->
-<!--											<h3>Sed etiam facilis</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>-->
-<!--											<h3>Feugiat lorem aenean</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>-->
-<!--											<h3>Amet varius aliquam</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
+<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
+											<h3>8h</h3>
+											<p>e.g. 1: 你的Android为什么那么快，我的iphone好慢呀。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-cn1-mix-0010.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-en1-mix-0010.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 2: 明天的presentation你prepare一下吧，一定要弄得很amazing。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-cn1-mix-0009.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-en1-mix-0009.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
 									</div>
-								</section>
-<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Experiment 2: xxxx</h2>
-									</header>
+                                    
+                                     <hr>
+                                    <h3>English</h3>
 									<div class="posts">
+                                        
 										<article>
 <!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
-											<h3>Traditional Method</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
+											<h3>0.5h</h3>
+											<p>e.g. 3: My mother is making the bed.</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-cn1-0005.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-en1-0005.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 4: Houses, often three storeys high, were built of stone.</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-cn1-0007.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-en1-0007.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
 										<article>
 <!--											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>-->
-											<h3>New Method</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
+											<h3>2h</h3>
+											<p>e.g. 3: My mother is making the bed.</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-cn1-0005.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-en1-0005.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 4: Houses, often three storeys high, were built of stone.</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-cn1-0007.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-en1-0007.wav" type="audio/x-wav" /></audio>
 											<ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
+                                        
 										<article>
-<!--											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>-->
-<!--											<h3>Tempus ullamcorper</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
+<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
+											<h3>8h</h3>
+											<p>e.g. 3: My mother is making the bed.</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-cn1-0005.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-en1-0005.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 4: Houses, often three storeys high, were built of stone.</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-cn1-0007.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-en1-0007.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <ul class="actions">
+<!--												<li><a href="#" class="button">More</a></li>-->
+											</ul>
+										</article>
+										
+                                        
+                                        
+										
+									</div>
+                                     <hr>
+                                    <h3>Mandarin</h3>
+									<div class="posts">
+                                        
+										<article>
+<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
+											<h3>0.5h</h3>
+											<p>e.g. 5: 明天我们同一时间相约直播间，再见。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-cn1-0017.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-en1-0017.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 6: 买不了房子，买不了车，旅游也到不了莫斯科。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-cn1-0018.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/0.5-en1-0018.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
 										<article>
-<!--											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>-->
-<!--											<h3>Sed etiam facilis</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
+<!--											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>-->
+											<h3>2h</h3>
+											<p>e.g. 5: 明天我们同一时间相约直播间，再见。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-cn1-0017.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-en1-0017.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 6: 买不了房子，买不了车，旅游也到不了莫斯科。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-cn1-0018.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/2-en1-0018.wav" type="audio/x-wav" /></audio>
+                                            
 											<ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
+                                        
 										<article>
-<!--											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>-->
-<!--											<h3>Feugiat lorem aenean</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
+<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
+											<h3>8h</h3>
+											<p>e.g. 5: 明天我们同一时间相约直播间，再见。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-cn1-0017.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-en1-0017.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <p></p>
+                                            <p>e.g. 6: 买不了房子，买不了车，旅游也到不了莫斯科。</p>
+                                            
+                                            <H6>CN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-cn1-0018.wav" type="audio/x-wav" /></audio>
+                                            
+                                            <H6>EN_MS1</H6>
+                                                <audio controls="controls"><source src="demo_audio/8-en1-0018.wav" type="audio/x-wav" /></audio>
+                                            
+                                            
+                                            <ul class="actions">
+<!--												<li><a href="#" class="button">More</a></li>-->
+											</ul>
+										</article>
+									</div>
+                                    
+								</section>
+<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Experiment 2: multi-speaker cross-lingual data</h2>
+									</header>
+									<div class="posts">
+										<article>
+<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
+											<h3>EN_MS1</h3>
+											
+                                            
+                                            <H6>e.g.1</H6>
+                                            <p>你的Android为什么那么快，我的iphone好慢呀。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-en1-0010.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                            
+                                            <H6>e.g.2</H6>
+                                            <p>明天的presentation你prepare一下吧，一定要弄得很amazing。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-en1-0009.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                                                                        
+                                            <H6>e.g.3</H6>
+                                            <p>My mother is making the bed.</p>
+                                            <audio controls="controls"><source src="demo_audio/100-en1-0005.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                               
+                                            <H6>e.g.4</H6>
+                                            <p>Houses, often three storeys high, were built of stone.</p>
+                                            <audio controls="controls"><source src="demo_audio/100-en1-0007.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                            
+                                            <H6>e.g.5</H6>
+                                            <p>明天我们同一时间相约直播间，再见。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-en1-0017.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                               
+                                            <H6>e.g.6</H6>
+                                            <p>买不了房子，买不了车，旅游也到不了莫斯科。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-en1-0018.wav" type="audio/x-wav" /></audio>
+                                               
+                                            
+                                            <ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
 										<article>
-<!--											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>-->
-<!--											<h3>Amet varius aliquam</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
+<!--											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>-->
+											<h3>CN_MS2</h3>
+											<H6>e.g.1</H6>
+                                            <p>你的Android为什么那么快，我的iphone好慢呀。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-cn2-0010.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                            
+                                            <H6>e.g.2</H6>
+                                            <p>明天的presentation你prepare一下吧，一定要弄得很amazing。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-cn2-0009.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                                                                        
+                                            <H6>e.g.3</H6>
+                                            <p>My mother is making the bed.</p>
+                                            <audio controls="controls"><source src="demo_audio/100-cn2-0005.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                               
+                                            <H6>e.g.4</H6>
+                                            <p>Houses, often three storeys high, were built of stone.</p>
+                                            <audio controls="controls"><source src="demo_audio/100-cn2-0007.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                            
+                                            <H6>e.g.5</H6>
+                                            <p>明天我们同一时间相约直播间，再见。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-cn2-0017.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                               
+                                            <H6>e.g.6</H6>
+                                            <p>买不了房子，买不了车，旅游也到不了莫斯科。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-cn2-0018.wav" type="audio/x-wav" /></audio>
+                                               
 											<ul class="actions">
+<!--												<li><a href="#" class="button">More</a></li>-->
+											</ul>
+										</article>
+                                        
+										<article>
+<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
+											<h3>CN_FS1</h3>
+											<H6>e.g.1</H6>
+                                            <p>你的Android为什么那么快，我的iphone好慢呀。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-fs1-0010.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                            
+                                            <H6>e.g.2</H6>
+                                            <p>明天的presentation你prepare一下吧，一定要弄得很amazing。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-fs1-0009.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                                                                        
+                                            <H6>e.g.3</H6>
+                                            <p>My mother is making the bed.</p>
+                                            <audio controls="controls"><source src="demo_audio/100-fs1-0005.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                               
+                                            <H6>e.g.4</H6>
+                                            <p>Houses, often three storeys high, were built of stone.</p>
+                                            <audio controls="controls"><source src="demo_audio/100-fs1-0007.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                            
+                                            <H6>e.g.5</H6>
+                                            <p>明天我们同一时间相约直播间，再见。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-fs1-0017.wav" type="audio/x-wav" /></audio>
+                                            <p></p>
+                                               
+                                            <H6>e.g.6</H6>
+                                            <p>买不了房子，买不了车，旅游也到不了莫斯科。</p>
+                                            <audio controls="controls"><source src="demo_audio/100-fs1-0018.wav" type="audio/x-wav" /></audio>
+                                               
+                                            
+                                            <ul class="actions">
 <!--												<li><a href="#" class="button">More</a></li>-->
 											</ul>
 										</article>
@@ -214,63 +476,12 @@
                             <!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Experiment 3: xxxx</h2>
+<!--										<h2>Experiment 3: xxxx</h2>-->
 									</header>
 									<div class="posts">
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>-->
-											<h3>Traditional Method</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>-->
-											<h3>New Method</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>-->
-<!--											<h3>Tempus ullamcorper</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>-->
-<!--											<h3>Sed etiam facilis</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>-->
-<!--											<h3>Feugiat lorem aenean</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
-										<article>
-<!--											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>-->
-<!--											<h3>Amet varius aliquam</h3>-->
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                                            <audio controls="controls"><source src="demo_audio/file_example_WAV_1MG.wav" type="audio/x-wav" /></audio>
-											<ul class="actions">
-<!--												<li><a href="#" class="button">More</a></li>-->
-											</ul>
-										</article>
+										
+										
+										
 									</div>
 								</section>
 						</div>
@@ -347,13 +558,29 @@
 								</section>
 -->
 							<!-- Section -->
+                            <section>
+									<header class="major">
+										<h2>Mapping</h2>
+									</header>
+									<p>This is a mapping between APRAbet (i.e. CMU phones)/ pinyin and SAMPA and features.</p>
+									<ul class="contact">
+										<li class="icon solid fa-file-alt"><a href="https://zenodo.org/record/5553685#.YV6Nw5pBzFQ">feature_mapping</a></li>
+                                        <p></p>
+                                        Cite as<br>
+                                        <blockquote>
+                                            Cong Zhang, & Huinan Zeng. (2021). Phonological feature mapping for FeatureTTS (Version 1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5553685
+										
+									</ul>
+								</section>
+                            
+                            
 								<section>
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="cong.zhang@ru.nl">cong.zhang@ru.nl</a></li>
+										<li class="icon solid fa-envelope"><a href="cong.zhang@ru.nl">cong.zhang@ru.nl</a>
 										<li class="icon brands fa-twitter">@congprosody</li>
 <!--										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />-->
 <!--										Nashville, TN 00000-0000</li>-->
