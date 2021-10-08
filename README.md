@@ -27,9 +27,19 @@ Visit https://congzhang365.github.io/feature_tts/ for demo audio.
 ### Cite as
 
 ```
-Zhang, C., Zeng, H., Liu, H., Zheng, J. (2021) Applying Phonological Features in Multilingual Text-To-Speech. 
+Zhang, C., Zeng, H., Liu, H., Zheng, J. (2021) Applying Phonological Features in Multilingual Text-To-Speech. Retrived from https://arxiv.org/abs/2110.03609.
 ```
 
+or use the following BibTex:
 
+```
+@misc{zhang2021applying,
+    title={Applying Phonological Features in Multilingual Text-To-Speech},
+    author={Cong Zhang and Huinan Zeng and Huang Liu and Jiewen Zheng},
+    year={2021},
+    eprint={2110.03609},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
 
-### 
