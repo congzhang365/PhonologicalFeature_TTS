@@ -1,4 +1,4 @@
-This is a repository for the preprint of 
+This is a repository for the project of 
 
 ## Applying Phonological Features in Multilingual Text-To-Speech 
 
@@ -27,7 +27,8 @@ Visit https://congzhang365.github.io/feature_tts/ for demo audio.
 ### Cite as
 
 ```
-Zhang, C., Zeng, H., Liu, H., Zheng, J. (2021) Applying Phonological Features in Multilingual Text-To-Speech. Retrived from https://arxiv.org/abs/2110.03609.
+Zhang, C., Zeng, H., Liu, H., Zheng, J. (2021) Applying Phonological Features in Multilingual Text-To-Speech. 
+Retrived from https://arxiv.org/abs/2110.03609.
 ```
 
 or use the following BibTex:
