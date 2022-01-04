@@ -34,13 +34,21 @@ Retrived from https://arxiv.org/abs/2110.03609.
 or use the following BibTex:
 
 ```
-@misc{zhang2021applying,
-    title={Applying Phonological Features in Multilingual Text-To-Speech},
-    author={Cong Zhang and Huinan Zeng and Huang Liu and Jiewen Zheng},
-    year={2021},
-    eprint={2110.03609},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{DBLP:journals/corr/abs-2110-03609,
+  author    = {Cong Zhang and
+               Huinan Zeng and
+               Huang Liu and
+               Jiewen Zheng},
+  title     = {Applying Phonological Features in Multilingual Text-To-Speech},
+  journal   = {CoRR},
+  volume    = {abs/2110.03609},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2110.03609},
+  eprinttype = {arXiv},
+  eprint    = {2110.03609},
+  timestamp = {Thu, 21 Oct 2021 16:20:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2110-03609.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
